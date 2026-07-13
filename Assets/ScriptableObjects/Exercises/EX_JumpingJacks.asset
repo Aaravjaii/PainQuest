@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce9ddde15a1a38049a2c4a64b0e08dd2, type: 3}
+  m_Name: EX_JumpingJacks
+  m_EditorClassIdentifier: Assembly-CSharp::PainQuest.ExerciseData
+  exerciseName: Jumping Jacks
+  questType: 0
+  startClip: {fileID: 0}
+  loopClip: {fileID: 0}
+  exitClip: {fileID: 0}
+  startTrigger: DoJumpingJacksStart
+  loopTrigger: DoJumpingJacksLoop
+  loopRetrigger: DoJumpingJacksLoop
+  exitTrigger: DoJumpingJacksStop
+  startClipDuration: 0.6
+  exerciseDuration: 30
+  loopRetriggerInterval: 1.2
+  exitClipDuration: 0.9
+  restDuration: 15
+  calloutText: '  JUMPING JACKS!\nArms wide, jump with purpose!'
+  calloutAudio: {fileID: 8300000, guid: 36dc9c88f5f32e74e956773950dd3d0e, type: 3}
+  referenceVideo: {fileID: 32900000, guid: bcd0a9eb5e08fad448fbb5cf96fdd2ce, type: 3}
+  scoringConfig:
+    jointA: 11
+    jointVertex: 13
+    jointB: 15
+    useBilateral: 0
+    jointA_R: 12
+    jointVertex_R: 24
+    jointB_R: 26
+    upThreshold: 160
+    downThreshold: 90
+    targetReps: 10
+    minRange: 30
+  postExerciseDialogue: {fileID: 11400000, guid: d654c1de3ac93014495e6478541053b4, type: 2}

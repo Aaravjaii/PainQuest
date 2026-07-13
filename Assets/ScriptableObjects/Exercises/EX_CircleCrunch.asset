@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce9ddde15a1a38049a2c4a64b0e08dd2, type: 3}
+  m_Name: EX_CircleCrunch
+  m_EditorClassIdentifier: Assembly-CSharp::PainQuest.ExerciseData
+  exerciseName: Circle Crunch
+  questType: 2
+  startClip: {fileID: 0}
+  loopClip: {fileID: 0}
+  exitClip: {fileID: 0}
+  startTrigger: StartCycle
+  loopTrigger: DoCycle
+  loopRetrigger: DoCycle
+  exitTrigger: EndCycle
+  startClipDuration: 0.8
+  exerciseDuration: 30
+  loopRetriggerInterval: 0
+  exitClipDuration: 1
+  restDuration: 15
+  calloutText: " CIRCLE CRUNCH!\\nRotate \u2014 your spine grows stronger!"
+  calloutAudio: {fileID: 8300000, guid: f5247f480aba0254999beb9205b01855, type: 3}
+  referenceVideo: {fileID: 32900000, guid: fef32dcb10e6e0c4891b2d43b2d8c2be, type: 3}
+  scoringConfig:
+    jointA: 11
+    jointVertex: 23
+    jointB: 25
+    upThreshold: 160
+    downThreshold: 90
+    targetReps: 10
+    minRange: 30
+  postExerciseDialogue: {fileID: 0}

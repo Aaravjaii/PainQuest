@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d04414b659a6ca8469e8da0c14176231, type: 3}
+  m_Name: QUEST_JointPain
+  m_EditorClassIdentifier: Assembly-CSharp::PainQuest.QuestData
+  questName: Joint Pain
+  questType: 0
+  questCardImage: {fileID: 0}
+  questDescription: Quest description here.
+  animatorController: {fileID: 9100000, guid: aa9fff3dfc4d02642ba5b060b68b1c99, type: 2}
+  exercises:
+  - {fileID: 11400000, guid: 8c6d4c55bece13d47adf2f3ad87264fa, type: 2}
+  - {fileID: 11400000, guid: 7bf912f298397024fb21f2bd969cb4a8, type: 2}
+  - {fileID: 11400000, guid: a072be3c4a391bf499131a4d3aeba5f2, type: 2}
+  - {fileID: 11400000, guid: dbfd2a77ee63d5045bf78b1937cc59ca, type: 2}
+  victoryText: Joint Beast DEFEATED!\nYour joints are stronger, Hero!
+  victoryAudio: {fileID: 0}

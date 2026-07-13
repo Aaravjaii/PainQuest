@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1072b91930ee074f987e18df24e394c, type: 3}
+  m_Name: BicycleCrunch
+  m_EditorClassIdentifier: Assembly-CSharp::PainQuest.DialogueSequence
+  lines:
+  - text: Excellent work completing your bicycle crunches!
+    audioClip: {fileID: 8300000, guid: 9a1c28351de96ed47950478fd1394371, type: 3}
+    displayDuration: 3
+  - text: This exercise engages both your core and oblique muscles, helping improve
+      trunk strength and control.
+    audioClip: {fileID: 8300000, guid: 6ef0ce5fc1ab46342b45f22cc7d38464, type: 3}
+    displayDuration: 7
+  - text: Relax, stay hydrated, and get ready for the next part of your journey
+    audioClip: {fileID: 8300000, guid: d9a97fd297bbc7241b12dcaffb697c28, type: 3}
+    displayDuration: 4

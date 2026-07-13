@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce9ddde15a1a38049a2c4a64b0e08dd2, type: 3}
+  m_Name: EX_CrossJumps
+  m_EditorClassIdentifier: Assembly-CSharp::PainQuest.ExerciseData
+  exerciseName: CrossJumps
+  questType: 0
+  startClip: {fileID: 0}
+  loopClip: {fileID: 0}
+  exitClip: {fileID: 0}
+  startTrigger: 
+  loopTrigger: DoCrossJumps
+  loopRetrigger: 
+  exitTrigger: DoIdle
+  startClipDuration: 0.8
+  exerciseDuration: 30
+  loopRetriggerInterval: 0
+  exitClipDuration: 1
+  restDuration: 15
+  calloutText: " CROSS JUMPS!\\nExplosive \u2014 power every landing!"
+  calloutAudio: {fileID: 8300000, guid: f3651094b02e7394d9478f33e2bca4a7, type: 3}
+  referenceVideo: {fileID: 32900000, guid: fef32dcb10e6e0c4891b2d43b2d8c2be, type: 3}
+  scoringConfig:
+    jointA: 23
+    jointVertex: 25
+    jointB: 27
+    useBilateral: 0
+    jointA_R: 12
+    jointVertex_R: 24
+    jointB_R: 26
+    upThreshold: 160
+    downThreshold: 70
+    targetReps: 10
+    minRange: 30
+  postExerciseDialogue: {fileID: 11400000, guid: f1310114b5f4a484db19c723e1c46d64, type: 2}

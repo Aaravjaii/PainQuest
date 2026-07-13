@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce9ddde15a1a38049a2c4a64b0e08dd2, type: 3}
+  m_Name: EX_BicycleCrunch
+  m_EditorClassIdentifier: Assembly-CSharp::PainQuest.ExerciseData
+  exerciseName: Bicycle Crunch
+  questType: 2
+  startClip: {fileID: 0}
+  loopClip: {fileID: 0}
+  exitClip: {fileID: 0}
+  startTrigger: DoStartBicycle
+  loopTrigger: DoBicycleCrunch
+  loopRetrigger: DoBicycleCrunch
+  exitTrigger: DoEndBicycle
+  startClipDuration: 0.7
+  exerciseDuration: 30
+  loopRetriggerInterval: 1.5
+  exitClipDuration: 0.8
+  restDuration: 15
+  calloutText: "   BICYCLE CRUNCH!\\nTwist and crunch \u2014 core on fire!"
+  calloutAudio: {fileID: 8300000, guid: c2c4e4d83c50d60448dba3a8dfe61710, type: 3}
+  referenceVideo: {fileID: 32900000, guid: 3d06a2818894fe1409458364e66e1292, type: 3}
+  scoringConfig:
+    jointA: 11
+    jointVertex: 23
+    jointB: 25
+    useBilateral: 0
+    jointA_R: 12
+    jointVertex_R: 24
+    jointB_R: 26
+    upThreshold: 160
+    downThreshold: 90
+    targetReps: 10
+    minRange: 25
+    minRepDurationOverride: 0
+    repCooldownOverride: 0
+  postExerciseDialogue: {fileID: 11400000, guid: 3f04152d5cebfde4c8d7cfaa4207659f, type: 2}

@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce9ddde15a1a38049a2c4a64b0e08dd2, type: 3}
+  m_Name: EX_Situps
+  m_EditorClassIdentifier: Assembly-CSharp::PainQuest.ExerciseData
+  exerciseName: Situps
+  questType: 2
+  startClip: {fileID: 0}
+  loopClip: {fileID: 0}
+  exitClip: {fileID: 0}
+  startTrigger: DoIdleToSitup
+  loopTrigger: DoSitups
+  loopRetrigger: DoSitups
+  exitTrigger: DoSitupToStand
+  startClipDuration: 1
+  exerciseDuration: 30
+  loopRetriggerInterval: 1.8
+  exitClipDuration: 1
+  restDuration: 15
+  calloutText: " SIT-UPS!\\nEngage your abs \u2014 rise like a warrior!"
+  calloutAudio: {fileID: 8300000, guid: fe63241ebeb35334db5b55544c34541f, type: 3}
+  referenceVideo: {fileID: 32900000, guid: 47bc57412de05934699b2eab715c494e, type: 3}
+  scoringConfig:
+    jointA: 11
+    jointVertex: 23
+    jointB: 25
+    upThreshold: 160
+    downThreshold: 70
+    targetReps: 10
+    minRange: 30
+  postExerciseDialogue: {fileID: 11400000, guid: 627dbbf8a0d598d43a948b38980cc00f, type: 2}

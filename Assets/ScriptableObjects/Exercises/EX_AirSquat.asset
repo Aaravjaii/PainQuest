@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce9ddde15a1a38049a2c4a64b0e08dd2, type: 3}
+  m_Name: EX_AirSquat
+  m_EditorClassIdentifier: Assembly-CSharp::PainQuest.ExerciseData
+  exerciseName: Air Squat
+  questType: 0
+  startClip: {fileID: 0}
+  loopClip: {fileID: 0}
+  exitClip: {fileID: 0}
+  startTrigger: 
+  loopTrigger: DoAirSquat
+  loopRetrigger: 
+  exitTrigger: DoIdle
+  startClipDuration: 0
+  exerciseDuration: 30
+  loopRetriggerInterval: 0
+  exitClipDuration: 1
+  restDuration: 15
+  calloutText: " AIR SQUAT!\\nFeet shoulder-width \u2014 squat deep!"
+  calloutAudio: {fileID: 8300000, guid: 4d638081ff1fe2d48b8cc55fd8cc470e, type: 3}
+  referenceVideo: {fileID: 32900000, guid: fd654c716678e8f499e1d8915d13f69d, type: 3}
+  scoringConfig:
+    jointA: 23
+    jointVertex: 25
+    jointB: 27
+    upThreshold: 160
+    downThreshold: 90
+    targetReps: 10
+    minRange: 30
+  postExerciseDialogue: {fileID: 11400000, guid: 48a9dca7675cd2f4e80a4cda28cd4771, type: 2}

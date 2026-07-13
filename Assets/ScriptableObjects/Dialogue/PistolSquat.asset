@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1072b91930ee074f987e18df24e394c, type: 3}
+  m_Name: PistolSquat
+  m_EditorClassIdentifier: Assembly-CSharp::PainQuest.DialogueSequence
+  lines:
+  - text: Outstanding work! You've successfully completed the pistol squat exercise.
+    audioClip: {fileID: 8300000, guid: 5ad5928cbe233414aadb64c4cf10d5a2, type: 3}
+    displayDuration: 5
+  - text: Controlled movement and proper technique are key to gaining the full benefits
+      of this exercise.
+    audioClip: {fileID: 8300000, guid: 6d8193f41bd5ec74ead99db37f8ae786, type: 3}
+    displayDuration: 6
+  - text: Rest well, and I'll be ready whenever you're prepared for your next quest.
+    audioClip: {fileID: 8300000, guid: 2ecf6690e39544548b166c286b834665, type: 3}
+    displayDuration: 4

@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce9ddde15a1a38049a2c4a64b0e08dd2, type: 3}
+  m_Name: ArmStretching
+  m_EditorClassIdentifier: Assembly-CSharp::PainQuest.ExerciseData
+  exerciseName: Arm Stretch
+  questType: 0
+  startClip: {fileID: 0}
+  loopClip: {fileID: 0}
+  exitClip: {fileID: 0}
+  startTrigger: DoArm
+  loopTrigger: DoArm
+  loopRetrigger: DoArm
+  exitTrigger: DoIdle
+  startClipDuration: 0.8
+  exerciseDuration: 20
+  loopRetriggerInterval: 0
+  exitClipDuration: 1
+  restDuration: 15
+  calloutText: ARM STRETCH! Extend your arms, keep them straight, and hold the position
+  calloutAudio: {fileID: 8300000, guid: 3a10d5a71ac322e409fc46c543a73ca1, type: 3}
+  referenceVideo: {fileID: 32900000, guid: 444081711002a364390963cd10fff086, type: 3}
+  scoringConfig:
+    jointA: 11
+    jointVertex: 13
+    jointB: 15
+    upThreshold: 160
+    downThreshold: 90
+    targetReps: 10
+    minRange: 30
+  postExerciseDialogue: {fileID: 11400000, guid: 72690464f9b1d3c4bac181a575b22ab6, type: 2}

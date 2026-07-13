@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1072b91930ee074f987e18df24e394c, type: 3}
+  m_Name: JumpingJacks
+  m_EditorClassIdentifier: Assembly-CSharp::PainQuest.DialogueSequence
+  lines:
+  - text: Fantastic effort! You've completed the jumping jacks exercise.
+    audioClip: {fileID: 8300000, guid: d44d475d32ade3743b24f9b1f1909ed3, type: 3}
+    displayDuration: 5
+  - text: Each movement contributes to a healthier, more active lifestyle
+    audioClip: {fileID: 8300000, guid: da56ed947df4b5d448f63e5a90234163, type: 3}
+    displayDuration: 5
+  - text: Take a moment to recover, focus on your breathing, and prepare for the
+      next exercise
+    audioClip: {fileID: 8300000, guid: 58134218c8085ae4dad023b3e963321c, type: 3}
+    displayDuration: 5

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1072b91930ee074f987e18df24e394c, type: 3}
+  m_Name: DialogueSeq_Greeting
+  m_EditorClassIdentifier: Assembly-CSharp::PainQuest.DialogueSequence
+  lines:
+  - text: Welcome, Hero. I am  your Adaptive Rehabilitation  Intelligent Assistant
+    audioClip: {fileID: 8300000, guid: e3656b3db92eb234d98d1b2b729ba330, type: 3}
+    displayDuration: 6
+  - text: Today we will battle the Pain Monsters together
+    audioClip: {fileID: 8300000, guid: 6ee15df4a2fd1ed4cac2862145797e89, type: 3}
+    displayDuration: 3
+  - text: Follow my every movement carefully and breathe steadily
+    audioClip: {fileID: 8300000, guid: 5f95b5ac8522f354ba7cb182b3c1e623, type: 3}
+    displayDuration: 5
+  - text: Let's begin your quest!
+    audioClip: {fileID: 8300000, guid: 0e623e1c4ff2cd345853d6587992b0b7, type: 3}
+    displayDuration: 3

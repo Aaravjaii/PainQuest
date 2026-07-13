@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce9ddde15a1a38049a2c4a64b0e08dd2, type: 3}
+  m_Name: EX_PushUp
+  m_EditorClassIdentifier: Assembly-CSharp::PainQuest.ExerciseData
+  exerciseName: Push Up
+  questType: 0
+  startClip: {fileID: 0}
+  loopClip: {fileID: 0}
+  exitClip: {fileID: 0}
+  startTrigger: DoPushUpStart
+  loopTrigger: DoPushUpLoop
+  loopRetrigger: DoPushUpLoop
+  exitTrigger: DoPushUpExit
+  startClipDuration: 1
+  exerciseDuration: 30
+  loopRetriggerInterval: 2
+  exitClipDuration: 1
+  restDuration: 15
+  calloutText: PUSH-UPS! Body straight, chest down, push up strong!
+  calloutAudio: {fileID: 8300000, guid: a90e0f67916eceb4e821a685da897384, type: 3}
+  referenceVideo: {fileID: 32900000, guid: 9a92cf209ef11094bbc49fe6c9ef380b, type: 3}
+  scoringConfig:
+    jointA: 11
+    jointVertex: 13
+    jointB: 15
+    useBilateral: 0
+    jointA_R: 12
+    jointVertex_R: 24
+    jointB_R: 26
+    upThreshold: 160
+    downThreshold: 90
+    targetReps: 10
+    minRange: 30
+  postExerciseDialogue: {fileID: 11400000, guid: d66037e7ce8e64e4cb774b7f5e12c251, type: 2}
